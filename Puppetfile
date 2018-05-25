@@ -5,6 +5,7 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs/inifile',     '2.2.1'
 mod 'puppetlabs/stdlib',      '4.25.1'
 mod 'puppetlabs/concat',      '4.2.1'
+# puppet-nginx module https://forge.puppet.com/puppet/nginx
 mod 'puppet-nginx',           '0.12.0'
 
 # Modules from Git
