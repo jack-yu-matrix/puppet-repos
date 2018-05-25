@@ -29,4 +29,8 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  # Apply the role to the node
+  notify {"role=$role, environment=$environment":}
+  $puppet_role ="role::${::role}"
+  include $puppet_role
 }
