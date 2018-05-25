@@ -27,6 +27,6 @@ mod 'wso2ei',
   :tag => 'v6.1.1'
 
 mod 'wso2apim-wso2am_runtime'
-  :git => 'ssh://git@alm-stash:7999/pup/wso2apim.git',
+  :git => 'ssh://git@alm-stash:7999/pup/wso2-apim.git/wso2am_runtime',
   :tag => 'v2.1.0'
 
