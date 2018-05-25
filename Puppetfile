@@ -17,3 +17,12 @@ mod 'puppet-nginx',           '0.12.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'wso2base',
+  :git => 'ssh://git@alm-stash:7999/pup/wso2-puppet-base.git',
+  :tag => 'v1.0.0'
+
+mod 'wso2ei',
+  :git => 'ssh://git@alm-stash:7999/pup/wso2-ei.git',
+  :tag => 'v6.1.1'
+
