@@ -8,8 +8,8 @@ hierarchy:
   - name: "Yaml backend"
     data_hash: yaml_data
     paths:
-      - "wso2/%{facts.product_name}/%{facts.pattern}/%{facts.product_profile}"
-      - "wso2/%{facts.product_name}/%{facts.pattern}/common"
+      - "wso2/%{::product_name}/%{::pattern}/%{::product_profile}"
+      - "wso2/%{::product_name}/%{::pattern}/common"
       - "wso2/common"
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
