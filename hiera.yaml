@@ -13,3 +13,5 @@ hierarchy:
       - "wso2/common"
       - "nodes/%{trusted.certname}.yaml"
       - "common.yaml"
+
+merge_behavior: deeper
