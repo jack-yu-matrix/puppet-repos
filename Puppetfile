@@ -24,7 +24,7 @@ mod 'wso2base',
 
 mod 'wso2ei',
   :git => 'ssh://git@alm-stash:7999/pup/wso2-ei.git',
-  :tag => 'v6.1.1'
+  :branch => 'develop'
 
 mod 'wso2am_runtime',
   :git => 'ssh://git@alm-stash:7999/pup/wso2am_runtime.git',
