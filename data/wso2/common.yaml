@@ -19,7 +19,7 @@ wso2::patches_dir: repository/components/patches
 wso2::install_dir: "/mnt"
 wso2::user: wso2user
 wso2::group: wso2
-wso2::pack_dir: /mnt/packs
+wso2::pack_dir: /etc/puppetlabs/code/environments/%{environment}/modules/%{::product_name}/files
 wso2::carbon_home_symlink: "/mnt/%{::product_name}-%{::product_version}"
 wso2::pack_filename: "%{::product_name}-%{::product_version}.zip"
 wso2::pack_extracted_dir: "%{::product_name}-%{::product_version}"
