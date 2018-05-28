@@ -2,14 +2,14 @@
 version: 5
 
 defaults:
-  datadir: "data"
+  datadir: 'data'
 
 hierarchy:
   - name: 'Yaml backend'
     data_hash: yaml_data
     paths:
-      - "wso2/%{::product_name}/%{::pattern}/%{::product_profile}"
-      - "wso2/%{::product_name}/%{::pattern}/common"
-      - "wso2/common"
-      - "nodes/%{trusted.certname}.yaml"
+      - 'wso2/%{::product_name}/%{::pattern}/%{::product_profile}'
+      - 'wso2/%{::product_name}/%{::pattern}/common'
+      - 'wso2/common'
+      - 'nodes/%{trusted.certname}.yaml'
       - 'common.yaml'
