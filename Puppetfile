@@ -20,7 +20,7 @@ mod 'puppet-nginx',           '0.12.0'
 
 mod 'wso2base',
   :git => 'ssh://git@alm-stash:7999/pup/wso2-puppet-base.git',
-  :branch => 'feature/cjlr_base'
+  :branch => 'feature/wso2eibase'
 
 mod 'wso2ei',
   :git => 'ssh://git@alm-stash:7999/pup/wso2-ei.git',
